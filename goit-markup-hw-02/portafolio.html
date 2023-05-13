@@ -14,14 +14,25 @@
             <a href="/"  class="nav_logo">WebStudio</a>
             <nav >
                 <ul class="list-nav">
-                    <li><a  class="link_buttons active"  >Porfolio</a></li>
-                    <li><a  href="../index.html"  class="link_buttons">Estudio</a></li>
-                    <li><a href="#" class="link_buttons">Contactos</a></li>
+                    <li><a  href="../index.html"  class="link_buttons">Studio</a></li>
+                    <li><a  class="link_buttons active-nav"  >Porfolio</a></li>
+                    <li><a href="#" class="link_buttons">Contacts</a></li>
                 </ul>
             </nav>
-            <ul class="list-nav rigth">
-                <li><a href="#"  class="link_buttons">info@devstudio.com</a></li>
-                <li><a href="#" class="link_buttons">+52 55 5529 6000</a></li>
+            <ul class="list-nav rigth ">
+                <a class="nav-icon">
+                    <svg class="icon-head-envelope" viewBox="0 0 30 14">
+                        <use href="../goit-markup-hw-02/images/icons.svg#icon-envelope"></use>
+                    </svg>
+                </a>
+                <li><a class="link_buttons" href="#" mailto:info@devstudio.com>info@devstudio.com</a></li>
+
+                <div class="nav-icon">
+                    <svg class="icon-head-envelope" viewBox="0 0 30 14">
+                        <use href="../goit-markup-hw-02/images/icons.svg#icon-mobile2"></use>
+                    </svg>
+                </div>
+                <li><a class="link_buttons" href="#" tel:+575555296000>+575555296000</a></li>
             </ul>
         </div>
     </header>
@@ -29,11 +40,11 @@
 
         <section>
             <div class="buttons">
-                <button type="button" id="button1" class="btn" >Todo</button>
-                <button type="button" id="button2" class="btn" >Sitios-Web</button>
-                <button type="button" id="button3" class="btn" >Aplicaciones</button>
-                <button type="button" id="button4" class="btn" >Diseño</button>
-                <button type="button" id="button5" class="btn" >Marqueting</button>
+                <button type="button" id="button1" class="btn" >All</button>
+                <button type="button" id="button2" class="btn" >Web Studio</button>
+                <button type="button" id="button3" class="btn" >App</button>
+                <button type="button" id="button4" class="btn" >Dising</button>
+                <button type="button" id="button5" class="btn" >Marketing</button>
             </div>
         </section>
         <section>
@@ -87,24 +98,55 @@
     </main>
     <!--Footer section-->
     <footer>
-        <address>
-            <div class="footer">
-                <a href="/" class="logo-footer">WebStudio</a>
-                <ul>
-                    <li class="link_buttons"  id="font-color">
-                        Calz. Ticomán 500, Ciudad de Mexico, CDMX, Mexico
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" class="contacts-link link_buttons
-                            ">info@example.com</a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank" class="contacts-link link_buttons
-                            ">+52 55 5529 6000</a>
-                    </li>
-                </ul>
-            </div>
-        </address>
+        <div class="footer">
+
+            <di class="container-footer">
+                <div class="container-address container-general">
+                    <div>
+                        <a href="/" class="logo-footer">WebStudio</a>
+                        <address class="addres">
+                            <ul>
+                                <li class="link_buttons">
+                                    <a href="" class="link_buttons direction">
+                                        Calz. Ticomán 500, Ciudad de <br>
+                                        Mexico, CDMX, Mexico
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" class="contacts-link link_buttons
+                                            ">info@example.com</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" class="contacts-link link_buttons
+                                            ">+52 55 5529 6000</a>
+                                </li>
+                            </ul>
+                    </div>
+                    </address>
+                </div>
+
+                <div class="contacts-footer">
+                    <p class="text-footer">Encuantranos en</p>
+                    <div class="icons-footer">
+                        <svg class="icon-footer" viewBox="0 0 30 56">
+                            <use href="../goit-markup-hw-02/images/icons.svg#icon-instagram"></use>
+                        </svg>
+                        <svg class="icon-footer" viewBox="0 0 30 56">
+                            <use href="../goit-markup-hw-02/images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        <svg class="icon-footer facebook" viewBox="0 0 20 56">
+                            <use href="../goit-markup-hw-02/images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        <svg class="icon-footer" viewBox="0 0 30 56">
+                            <use href="../goit-markup-hw-02/images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </div>
+                </div>
+
+        </div>
+
+        </div>
+
     </footer>
 </body>
 </html>
